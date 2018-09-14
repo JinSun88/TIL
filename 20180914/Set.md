@@ -4,7 +4,6 @@
 * Set Literal과 Array Literal은 똑간은 모양을 가지고 있어서 Set으로 사용할 경우 타입 지정 시에 Set이라는 명시를 해주어야 한다.
 * Array와 다르게 동일한 값을 Set안에 여러개 넣으면 하나의 값으로 인식한다.
 * Array와 달리 순서(index)가 없어 .insert를 통해서 값을 추가하는 것은 가능하지만 .append는 불가능하다.
-<br>
 * .count 나 .isEmpty를 통해 값의 갯수를 알수 있다. 이 경우, 동일한 값이 반복될 경우 하나로 카운트 한다.
 * .filter를 통해 Set의 구성요소로 있는지 없는지 확인 가능하고, .hasPrefix("str")를 통해 해당값이 있는지를 알아볼 수 있다.
 * 앞서 배운 Collection들과 마찬가지로 .remove("str"), .removeAll을 통해서 구성요소를 삭제할 수 있다.
