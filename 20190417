@@ -1,1 +1,4 @@
+- tracker 관련 이슈
 
+확실하진 않지만 네트워킹이 불안정할 시에 메인뷰 하단에 예상치 못한 UI가 생길 수 있음
+notifyView 또는 ActivityView의 bannerView로 생각되지만 정확히 확인하지 못함
