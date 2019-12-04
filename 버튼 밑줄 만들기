@@ -1,0 +1,15 @@
+  @IBOutlet weak var myButton: UIButton!
+
+  let yourAttributes : [NSAttributedStringKey: Any] = [
+      NSAttributedStringKey.font : UIFont.systemFont(ofSize: 14),
+      NSAttributedStringKey.foregroundColor : UIColor.blue,
+      NSAttributedStringKey.underlineStyle : NSUnderlineStyle.styleSingle.rawValue]
+         //.styleDouble.rawValue, .styleThick.rawValue, .styleNone.rawValue
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+    let attributeString = NSMutableAttributedString(string: "Your button text",
+                                                    attributes: yourAttributes)
+    myButton.setAttributedTitle(attributeString, for: .normal)
+  }
