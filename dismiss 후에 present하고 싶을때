@@ -1,0 +1,6 @@
+weak var pvc = self.presentingViewController
+
+self.dismiss(animated: true, completion: {
+let vc = SecondController()
+pvc?.present(vc, animated: true, completion: nil)
+})
