@@ -1,0 +1,6 @@
+    idTextField.attributedPlaceholder = NSAttributedString(
+    string: "이메일 혹은 휴대폰 번호를 입력해주세요", 
+    attributes: [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.7099716067, green: 0.7089767456, blue: 0.7510218024, alpha: 1)])
+    passwordTextField.attributedPlaceholder = NSAttributedString(
+    string: "비밀번호를 입력해주세요", 
+    attributes: [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.7099716067, green: 0.7089767456, blue: 0.7510218024, alpha: 1)])
