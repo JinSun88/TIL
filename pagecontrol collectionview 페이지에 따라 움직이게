@@ -1,0 +1,3 @@
+  func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    pageControl.currentPage = Int(scrollView.contentOffset.x) / Int(scrollView.frame.width)
+  }
