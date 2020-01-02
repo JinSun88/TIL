@@ -1,0 +1,1 @@
+image.heightAnchor.constraint(equalToConstant: CGFloat(8)).isActive = true
